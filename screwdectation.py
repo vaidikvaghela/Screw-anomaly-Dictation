@@ -18,7 +18,7 @@ def load_model():
     """
     Loads the trained Teachable Machine model from the 'savedmodel' directory.
     """
-    model = tf.keras.models.load_model('savedmodel')
+    model = tf.keras.models.load_model('model.savedmodel')
     return model
 
 # Function to load the class labels from labels.txt
