@@ -1,1 +1,2 @@
 # Screw-anomaly-Dictation
+Screw Anomaly Detection is a machine learning project that uses a trained image classification model to detect whether a screw is normal or defective. The app is built using Streamlit for the frontend and TensorFlow for prediction. Users upload an image of a screw, and the model classifies it based on visual anomalies using a SavedModel. The system helps automate quality control in manufacturing.
